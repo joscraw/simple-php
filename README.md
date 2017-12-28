@@ -21,7 +21,7 @@ Fedora 21 and below, and CentOS. (YUM package manager)
 INSTRUCTIONS/DOCUMENTATION
 ------------------------------------------------------------------------------------------------------------------------------
 
-Inside this repository you will be able to drill down to the custom PHP build that works for you. 
+Inside this repository you will be able to search through the folders and drill down to the custom PHP build that works for you. 
 
   - simple-php
     - CentOs
