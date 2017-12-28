@@ -34,3 +34,4 @@ If configuring for Apache CGI:
 2. $ echo -e "<FilesMatch \\.php$>\nSetHandler application/x-httpd-php\n</FilesMatch>" > /etc/httpd/conf.d/php.conf
 3. $ echo "PHPIniDir \"/usr/local/php7.2.0/lib/apache\"" >> /etc/httpd/conf/httpd.conf
 4. $ echo "LoadModule php7_module modules/libphp7.so" >> /etc/httpd/conf/httpd.conf
+5. $ sudo apachectl restart
