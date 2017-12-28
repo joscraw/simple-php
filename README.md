@@ -15,3 +15,12 @@ Currently we are only creating builds for the following distributions:
 
 Debian based systems, including Ubuntu (APT package manager)
 Fedora 21 and below, and CentOS. (YUM package manager)
+
+
+If we are missing a certain PHP build feel free to submit and Issue with the PHP version you are requesting, the extensions you need, and the distro you need it for. We will get to it as soon as possible. 
+
+If you have compiled a PHP package and feel that it should be included in our REPO, feel free to send a pull request and we will review, test, and merge it in!
+
+
+
+Happy-Coding! 
