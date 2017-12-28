@@ -39,7 +39,7 @@ Inside this repository you will be able to search through the folders and drill 
 1. Find your distribution. (CentOs, Ubuntu, etc)
 2. Select the PHP version you need
 3. search through the list of builds for the PHP build that works best for you. First build starting with number 1. 
-4. Inside each build you will see a README.md. This file shows you which modules are enabled for both the PHP CLI and the php CGI and also contains detailed instructions for installing. 
+4. Inside each build you will see a README.md. This file shows you which modules are enabled for both the PHP CLI and the PHP CGI and also contains detailed instructions for installing. 
 
 ------------------------------------------------------------------------------------------------------------------------------
 
