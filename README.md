@@ -22,7 +22,8 @@ INSTRUCTIONS/DOCUMENTATION
 ------------------------------------------------------------------------------------------------------------------------------
 
 Inside this repository you will be able to drill down to the custom PHP build that works for you. 
-  -simple-php
+
+  - simple-php
     - CentOs
       - php7.2.0
         - 1
