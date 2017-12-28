@@ -23,14 +23,14 @@ presented to you. Use $ sudo yum install to install each missing dependency.
 5. You can see your php version: $ /usr/local/php7.2.0/bin/php -v
 
 
-If you want your PHP executables to be globally available (php, pear, pecl, phpize, php-config, etc).
-1. $ sudo -s 
-2. $ echo "export PATH=/usr/local/php7.2.0/bin:${PATH}" >> ~/.bash_profile
-3. $ source ~/.bash_profile
-4. You can now see your php version like so: $ php -v
+If you want your PHP executables to be globally available (php, pear, pecl, phpize, php-config, etc). 
+1. $ echo "export PATH=/usr/local/php7.2.0/bin:${PATH}" >> ~/.bash_profile
+2. $ source ~/.bash_profile
+3. You can now see your php version like so: $ php -v
 
 If configuring for Apache CGI:
 1. $ sudo -s
 2. $ echo -e "<FilesMatch \\.php$>\nSetHandler application/x-httpd-php\n</FilesMatch>" > /etc/httpd/conf.d/php.conf
 3. $ echo "PHPIniDir \"/usr/local/php7.2.0/lib/apache\"" >> /etc/httpd/conf/httpd.conf
 4. $ echo "LoadModule php7_module modules/libphp7.so" >> /etc/httpd/conf/httpd.conf
+5. $ sudo apachectl restart
