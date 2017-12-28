@@ -21,14 +21,19 @@ Fedora 21 and below, and CentOS. (YUM package manager)
 INSTRUCTIONS/DOCUMENTATION
 ------------------------------------------------------------------------------------------------------------------------------
 
-Inside this repository you will be able to search through the folders and drill down to the custom PHP build that works for you. 
+Inside this repository you will be able to search through the folders and drill down to the custom PHP build that works for you. Below you will see an example of our folder structure and how we are organizing the custom PHP builds.  
 
   - simple-php
     - CentOs
+    - Debian
+    - Trusty
+      - php7.1.0
       - php7.2.0
         - 1
           - .rpm 
-          - enabled-extensions.md
+          - README.md
+        - 2 
+          - .rpm 
           - README.md
 
 1. Find your distribution. (CentOs, Ubuntu, etc)
